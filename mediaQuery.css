@@ -1,0 +1,116 @@
+@media (min-width: 950px) and (max-width: 1230px) {
+  .hero .mainright {
+    display: none;
+  }
+  .hero .mainleft {
+    background-color: rgb(255, 250, 245);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cookcollectivekitchen.com/wp-content/uploads/2019/07/hero-1-800x1200.jpg");
+
+    background-position: center;
+    background-size: cover;
+  }
+  .hideOnPhone {
+    display: none;
+  }
+}
+@media (min-width: 100px) and (max-width: 950px) {
+  .hero .mainright {
+    display: none;
+  }
+  .hero .mainleft {
+    background-color: rgb(255, 250, 245);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cookcollectivekitchen.com/wp-content/uploads/2019/07/hero-1-800x1200.jpg");
+
+    background-position: center;
+    background-size: cover;
+  }
+  .hideOnPhone {
+    display: none;
+  }
+  .hideOnPhone3 {
+    display: none;
+  }
+  .secondSec .secLeft {
+    width: 100%;
+  }
+  .secondSec .secRight {
+    display: none;
+  }
+  .hero .mainleft h1 {
+    margin-top: 45px;
+  }
+  .fourthSec {
+    justify-content: center;
+    flex-direction: column;
+    height: 400vh;
+  }
+  .fifthSec img {
+    width: 100%;
+  }
+  .mid {
+    margin-bottom: 250px;
+  }
+  .fourthSec .one,
+  .fourthSec .two,
+  .fourthSec .three {
+    width: 100%; /* Set width to 100% */
+    height: 100vh;
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: normal;
+  }
+ 
+  .sixthSec {
+    padding-top: 50px;
+  }
+  .seventhSec {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400vh;
+  }
+  .seventhSec img {
+    display: none;
+  }
+  .seventhSec .one,
+  .seventhSec .two,
+  .seventhSec .three {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: normal;
+  }
+  .fourthSec .three p {
+    width: 100%;
+  }
+  .eightSec {
+    flex-wrap: wrap;
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+  .eightSec .dLeft {
+    padding-left: 10px;
+  }
+  .showOnPhone{
+
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+}
